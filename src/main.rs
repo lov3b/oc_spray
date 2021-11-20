@@ -6,7 +6,7 @@ use soloud::*;
 
 fn main() {
     let mut rng = rand::thread_rng();
-    let mut sl = Soloud::default().unwrap();
+    let sl = Soloud::default().unwrap();
     let mut wav = audio::Wav::default();
 
     let oc_spray = include_bytes!("oc_spray.wav");
