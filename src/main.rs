@@ -1,7 +1,6 @@
-use std::cmp::Ordering;
-use std::thread;
-use std::time::Duration;
-
+use std::{
+    cmp::Ordering, thread, time::Duration
+};
 use rand::{self, prelude::*};
 use soloud::*;
 
